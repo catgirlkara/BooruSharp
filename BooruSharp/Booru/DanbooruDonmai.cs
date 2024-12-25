@@ -10,7 +10,7 @@
         /// Initializes a new instance of the <see cref="DanbooruDonmai"/> class.
         /// </summary>
         public DanbooruDonmai()
-            : base("danbooru.donmai.us", BooruOptions.NoMoreThan2Tags)
+            : base("danbooru.donmai.us")
         { }
 
         /// <inheritdoc/>

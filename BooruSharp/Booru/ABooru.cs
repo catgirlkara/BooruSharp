@@ -352,7 +352,7 @@ namespace BooruSharp.Booru
         /// </summary>
         public HttpClient HttpClient
         {
-            protected get
+            get
             {
                 // If library consumers didn't provide their own client,
                 // initialize and use singleton client instead.
